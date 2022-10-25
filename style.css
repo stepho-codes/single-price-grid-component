@@ -1,0 +1,181 @@
+body {
+    background-color: hsl(218, 12%, 87%);
+    font-family: 'Karla', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 5%;
+    padding: 1%;
+    grid-template-columns: 50% 50%;
+}
+
+.mainTitle {
+    color: hsl(179, 62%, 43%);
+}
+
+.secondTitle {
+    color: hsl(71, 73%, 54%);
+
+}
+
+.leftTitle {
+    color: white;
+}
+
+.money {
+    color: white;
+    font-size: 25px;
+}
+
+.moneyNeighbor {
+    color: hsl(179, 62%, 65%);
+    font-size: 15px;
+
+}
+
+.ctaButton {
+    width: 70%;
+    align-items: center;
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    border-color: none;
+    border-style: none;
+    color: white;
+    box-shadow: 5px 5px 5px hsl(179, 62%, 40%);
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: hsl(165, 56%, 57%);
+    font-size: 15px;
+
+}
+
+
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: white;
+    padding: 5%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.grid-item2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: hsl(179, 62%, 43%);
+    padding: 10%;
+    border-bottom-left-radius: 10px;
+
+}
+
+.grid-item3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: hsl(179, 42%, 53%);
+    padding: 10%;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.whiteFont {
+    color: white;
+    font-size: 13px;
+}
+
+.whiteFontTwo {
+    color: hsl(204, 43%, 93%);
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.mainParagraph {
+    color: hsl(218, 22%, 67%);
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.attribution {
+    padding-left: 25px;
+}
+
+/*MOBILE VIEW*/
+
+@media screen and (max-width: 375px) {
+    .grid-container {
+        display: inline;
+        margin-top: 12%;
+        padding: 1%;
+        width: 85%;
+    }
+
+    .grid-item1 {
+        width: 85%;
+        border-radius: 1px;
+    }
+
+    .grid-item2 {
+        width: 85%;
+        border-radius: 0;
+        padding: 5%;
+
+    }
+
+    .grid-item3 {
+        width: 85%;
+        border-radius: 0;
+        padding: 5%;
+
+    }
+
+    .mainTitle {
+        font-size: 20px;
+    }
+
+    .mainParagraph {
+        line-height: 25px;
+    }
+
+    .leftTitle {
+        font-size: 20px;
+    }
+
+    .money {
+        font-size: 30px;
+    }
+
+    .moneyNeighbor {
+        font-size: 15px;
+    }
+
+    .whiteFont {
+        font-size: 15px;
+    }
+
+    .ctaButton {
+        width: 100%;
+        padding: 7%;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .whiteFontTwo {
+        line-height: 20px;
+    }
+
+    .attribution {
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 1px;
+        margin-top: 1px;
+    }
+
+
+}
